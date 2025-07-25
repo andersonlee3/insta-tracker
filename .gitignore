@@ -1,6 +1,9 @@
 # instagram connections file
 **connections
 
+# env file
+backend/.env
+
 # Flask recommended gitignores
 backend/.venv/
 
