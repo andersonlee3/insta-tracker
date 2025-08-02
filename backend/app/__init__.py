@@ -16,5 +16,13 @@ def create_app(config_class=Config):
         os.makedirs(app.instance_path)
     except OSError:
         pass
+
+    # Register blueprints
+    from app.routes import compare
+    app.register_blueprint(compare.bp)
+
+    @app.route('/')
+    def home():
+        return "Welcome to InstaTracker!"
     
     return app
