@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.png";
+import "./App.css";
+import UploadComponent from "./Components/UploadComponent";
 
 function App() {
   return (
@@ -7,17 +8,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to Insta Tracker! This is a simple application to track who is
+          not following you back.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <UploadComponent></UploadComponent>
     </div>
   );
 }
