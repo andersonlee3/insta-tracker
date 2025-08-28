@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Welcome to Insta Tracker!</h1>
         <p>
-          Welcome to Insta Tracker! This is a simple application to track who is
-          not following you back.
+          This is a simple application to track who is not following you back.
         </p>
       </header>
       <UploadComponent></UploadComponent>

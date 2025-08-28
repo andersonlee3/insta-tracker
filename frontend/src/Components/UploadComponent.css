@@ -1,0 +1,19 @@
+.upload-row{
+    justify-content: center;
+    color: #a550d2;
+}
+
+.compare-row{
+    margin-top: 3vh;
+}
+
+.results-row{
+    margin-top: 3vh;
+    justify-content: center;
+    color: #a550d2;
+}
+
+.download-row{
+    margin-top: 3vh;
+    justify-content: center;
+}
